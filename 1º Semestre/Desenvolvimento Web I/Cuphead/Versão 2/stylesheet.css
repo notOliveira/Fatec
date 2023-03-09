@@ -1,0 +1,150 @@
+body,
+head {
+    padding-left: 5px;
+    position: relative;
+    background-color: #e6bf13;
+}
+
+@font-face {
+    font-family: Cuphead;
+    src: url(fonts/cuphead.otf);
+}
+
+@font-face {
+    font-family: Comic;
+    src: url(fonts/comic.otf);
+}
+.menu-item-text {
+    font-size: 23px;
+    margin-top: auto;
+    display: inline;
+}
+
+ul {
+    /* inline-flexbox o melhor*/
+    position: absolute;
+    display:inline-flexbox;
+}
+
+
+a:visited, a, a:hover {
+    display: inline;
+    text-decoration: none;
+}
+
+.title {
+    font-family: Cuphead;
+    color: #fffdd9;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+#main-title {
+    margin-bottom: 0;
+    font-size: 80pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cuphead-img {
+    width: 20%;
+    margin: auto;   
+}
+
+.comic-text {
+    font-family: Comic;
+    font-size: 19pt;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#comic-text1 {
+    text-align: justify;
+}
+
+#introduction-1 {
+    vertical-align: top;
+    width: 60%;
+    display: inline-block;
+    text-align: justify;
+}
+
+#introduction-2 {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+#cuphead-bosses-img {
+    position: absolute;
+    border: 3px solid black;
+    max-height: 620px;
+    max-width: auto;
+}
+
+.boss-title,
+.link-yt {
+    margin-left: 30px;
+    font-size: 50pt;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.boss-img {
+    max-width: 100%;
+}
+
+.boss-icon-title {
+    vertical-align: top;
+    padding-top: 10px;
+    display: inline-block;
+    max-width: 25%;
+}
+
+.text-about-boss {
+    text-align: justify;
+    font-size: 17pt;
+}
+
+.boss-text {
+    display: inline-block;
+    width: 70%;
+    margin-left: 1px;
+}
+
+.menu {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+.menu-items {
+    width: 17vw;
+    justify-content: center;
+    background-color: #1591ea;
+    display:inline-block;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.menu-items:hover {
+    background-color: #e11616;
+}
+
+.menu-items:active {
+    background-color: white;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.menu-text {
+    font-size: 13pt;
+}
