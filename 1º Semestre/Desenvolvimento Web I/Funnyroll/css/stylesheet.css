@@ -1,0 +1,291 @@
+/* DECLARAÇÃO DAS FONTES + PROPRIEDADES DO BODY*/
+
+@font-face {
+    font-family: Animes;
+    src: url(../fonts/anime-font.otf);
+}
+
+@font-face {
+    font-family: Comfortaa-bold;
+    src: url(../fonts/comfortaa-bold.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-regular;
+    src: url(../fonts/comfortaa-regular.ttf);
+}
+
+@font-face {
+    font-family: Comfortaa-light;
+    src: url(../fonts/comfortaa-light.ttf);
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #a83780;
+}
+
+
+/* CABEÇALHO */
+
+nav {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.funny-logo {
+    float: left;
+    width: 200px;
+}
+
+.funny-logo:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.funny-logo:not(:hover) {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.nav-bar-a {
+    font-size: 20pt;
+    font-family: Animes;
+    float: right;
+    text-decoration: none;
+    padding: 5px 30px;
+    display: block;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000;
+}
+
+.nav-bar-a:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.nav-bar-a:not(:hover) {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+/* RODAPÉ */
+
+.footer {
+    font-family: Comfortaa-light;
+    background-color: rgb(70, 70, 70);
+    width: auto;
+    height: 50px;
+    color: white;
+    padding-left: 20px;
+}
+
+
+/* CORPO DA PÁGINA */
+
+
+/* CONTAINER-1 */
+
+#container1 {
+    margin-top: 60px;
+    background-color: rgb(1, 133, 133);
+    display: flex;
+}
+
+#all-might-and-text {
+    vertical-align: top;
+    margin-left: 0;
+    width: 70%;
+    height: 500px;
+    display: inline-block;
+}
+
+#all-might {
+    float: left;
+    max-width: 300px;
+}
+
+#all-might-and-text p {
+    text-align: justify;
+    font-family: Comfortaa-bold;
+    color: white;
+    font-size: 25pt;
+    padding-right: 20px;
+}
+
+#hxh-news {
+    background-color: #8d296a;
+    font-family: Comfortaa-regular;
+    display: inline-block;
+    font-size: 12pt;
+    width: 30%;
+    height: 600px;
+}
+
+#hxh-poster {
+    height: 500px;
+}
+
+#hxh-news h3 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#hxh-news a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* CONTAINER-2 */
+
+#container2 {
+    z-index: 1;
+}
+
+.wanna-see {
+    margin-left: 30px;
+    color: white;
+    font-family: Comfortaa-bold;
+    font-size: 30pt;
+}
+
+.text-and-img-c2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.text-and-img-c2 p {
+    font-family: Comfortaa-bold;
+    color: white;
+    font-size: 20pt;
+}
+
+.wanna-see-img {
+    height: 300px;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.text-and-img-c2:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+}
+
+.text-and-img-c2:not(:hover) {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+/* CONTAINER-3 */
+
+#container3 {
+    display: inline-block;
+    margin: 0;
+    background-color: rgb(23, 63, 21);
+    border-bottom: 2px solid black;
+}
+
+#gon-like {
+    float: right;
+    margin-top: -15.5px;
+    height: 400px;
+}
+
+#newsletter {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.subscribe {
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa-bold;
+    font-size: 30pt;
+}
+
+
+/*  PÁGINA ANIMES */
+
+#main1-anime {
+    margin-top: 30px;
+    display: inline-block;
+    width: auto;
+    background-color: rgb(1, 133, 133);
+}
+
+#main1-anime img {
+    float: left;
+    height: 500px;
+}
+
+.image-and-text {
+    padding-left: 300px;
+    padding-right: 50px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: Comfortaa-bold;
+    font-size: 40pt;
+}
+
+.boxes-gustavo {
+    padding: 50px 50px 20px 50px;
+}
+
+.content-box-gustavo {
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.content-box-gustavo a,
+.content-box-gustavo p {
+    margin-top: 0;
+    padding-top: 1px;
+    text-decoration: none;
+    font-family: Animes;
+    font-size: 18pt;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.watch-info {
+    z-index: 9;
+    margin-bottom: 1px solid white;
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.content-box-gustavo:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.content-box-gustavo:not(:hover) {
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+/* PÁGINA MANGAS */
+
+#main1-manga {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: rgb(1, 133, 133);
+}
+
+#main1-manga img {
+    float: left;
+    height: 500px;
+}
