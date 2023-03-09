@@ -1,0 +1,65 @@
+#font-family1{
+    font-family: Arial;
+}
+
+#font-family2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#font-family3{
+    font-family: "Courier New";
+}
+
+#font-family4{
+    font-family: Tahoma;
+}
+
+#font-size1{
+    font-size: 12px;
+}
+
+#font-size2{
+    font-size: 16px;
+}
+
+
+#font-size3{
+    font-size: 20px;
+}
+
+#font-size4{
+    font-size: 24px;
+}
+
+
+#font-size5{
+    font-size: 28px;
+}
+
+#font-style1{
+    font-style: normal;
+}
+
+#font-style2{
+    font-style: italic;
+}
+
+#font-style3{
+    font-style: oblique;
+}
+
+#font-variant1{
+    font-variant: normal;
+}
+
+#font-variant2{
+    font-variant: small-caps;
+}
+
+#font-weight1{
+    font-weight: normal;
+}
+
+#font-weight2{
+    font-weight: bold;
+}
