@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Aula de links!</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="Gustavo O.">
+
+    <meta name="description" content="Exercício de links">
+
+    <meta name="keywords" content="html, links">
+
+    <style>
+        /* Div do logo + bordão */
+        
+        .div-logo {
+            /* border: 5px outset rgb(255, 255, 255); */
+            text-align: center;
+            width: auto;
+            height: 200px;
+        }
+        /* Cor de fundo */
+        
+        .myBackground {
+            background-color: rgb(63, 63, 63);
+        }
+        /* Nome da empresa */
+        
+        .logo {
+            color: rgb(235, 55, 0);
+            text-align: center;
+            font-size: 60px;
+        }
+        /* Bordão */
+        
+        .logo-2 {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+        /* Div do índice */
+        
+        .div-summary {
+            background-color: rgb(255, 255, 255);
+            border: 5px outset rgb(0, 0, 0);
+            border-radius: 5px;
+            margin-left: 15px;
+            width: 150px;
+            height: 235px;
+        }
+        /* Título acima da div índice */
+        
+        .summary-title {
+            color: white;
+            margin-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Textos dentro da div índice */
+        
+        .destiny-summary {
+            color: rgb(0, 0, 0);
+            margin-left: 10px;
+        }
+        /* Marquee */
+        
+        .marquee {
+            background-color: rgb(255, 0, 0);
+        }
+        /* Texto do marquee */
+        
+        .marquee-text {
+            color: white;
+            font-size: 20px;
+        }
+        /* Div que localiza os textos das localidades */
+        
+        .div-locations {
+            /*  border: 3px outset rgb(255, 255, 255); */
+            margin-left: 10px;
+        }
+        
+        .location-title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+            color: rgb(255, 238, 0);
+        }
+        
+        .location-description {
+            color: white;
+        }
+        
+        .text-mark {
+            font-size: 25px;
+            color: rgb(6, 255, 101);
+        }
+        
+        .location-title-and-first-paragraph1 {
+            max-width: 100%;
+            width: auto;
+            text-align: justify;
+        }
+        
+        .location-title-and-first-paragraph2 {
+            margin-top: -65px;
+            text-align: justify;
+        }
+        
+        .location-title-and-first-paragraph3 {
+            margin-top: -130px;
+            text-align: justify;
+        }
+        
+        .hawaii-image1 {
+            border: 5px outset black;
+            border-radius: 5px;
+            width: 500px;
+            margin-top: px;
+        }
+        
+        .hawaii-image2 {
+            border: 5px outset black;
+            border-radius: 5px;
+            max-width: 650px;
+            width: auto;
+            height: auto;
+            margin-left: -40px;
+        }
+        
+        .florida-image1 {
+            border: 5px outset black;
+            border-radius: 5px;
+            width: 500px;
+            margin-top: 70px;
+        }
+        
+        .florida-image2 {
+            border: 5px outset black;
+            border-radius: 5px;
+            max-width: 650px;
+            width: auto;
+            height: auto;
+            margin-left: -40px;
+        }
+        
+        .new-york-image1 {
+            border: 5px outset black;
+            border-radius: 5px;
+            width: 500px;
+            margin-top: 70px;
+        }
+        
+        .new-york-image2 {
+            border: 5px outset black;
+            border-radius: 5px;
+            max-width: 650px;
+            width: auto;
+            height: auto;
+            margin-left: -40px;
+        }
+        
+        .california-image1 {
+            border: 5px outset black;
+            border-radius: 5px;
+            width: 500px;
+            margin-top: 70px;
+        }
+        
+        .california-image2 {
+            border: 5px outset black;
+            border-radius: 5px;
+            max-width: 650px;
+            width: auto;
+            height: auto;
+            margin-left: -40px;
+        }
+        
+        .nevada-image1 {
+            border: 5px outset black;
+            border-radius: 5px;
+            width: 500px;
+            margin-top: 50px;
+        }
+        
+        .nevada-image2 {
+            border: 5px outset black;
+            border-radius: 5px;
+            max-width: 650px;
+            width: auto;
+            height: auto;
+            margin-left: -40px;
+        }
+        
+        .div-body {
+            margin-left: 10px;
+            margin-top: -40px;
+        }
+        
+        .summary-form-table {
+            max-width: auto;
+        }
+        
+        .colune-table1 {
+            width: 400px;
+        }
+        
+        .colune-table2 {
+            color: rgb(43, 36, 36);
+            border-radius: 5px;
+            border: 5px outset rgba(255, 255, 255, 0.623);
+            background-color: rgb(212, 212, 212);
+            vertical-align: top;
+            width: 55%;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body class="myBackground">
+
+    <div class="div-body" id="init">
+        <div class="div-logo">
+            <h1 class="logo">
+                Oudri Viagens
+            </h1>
+            <h3 class="logo-2">
+                Aqui se viaja com gosto!
+            </h3>
+        </div>
+
+        <br><br>
+
+        <marquee scrollamount="20" class="marquee">
+            <h3 class="marquee-text">
+                Não perca nossas promoções! São por tempo ilimitado!
+            </h3>
+        </marquee>
+
+        <br><br><br>
+
+        <table class="summary-form-table">
+            <tr>
+                <td class="colune-table1">
+                    <!-- INÍCIO PRIMEIRA COLUNA DA PRIMEIRA LINHA DA TABELA -->
+                    <h2 class="summary-title">
+                        Sumário
+                    </h2>
+
+                    <div class="div-summary">
+                        <a href="#hawaii-title">
+                            <h3 class="destiny-summary">
+                                Hawaii
+                            </h3>
+                        </a>
+
+                        <a href="#florida-title">
+                            <h3 class="destiny-summary">
+                                Florida
+                            </h3>
+                        </a>
+
+                        <a href="#new-york-title">
+                            <h3 class="destiny-summary">
+                                New York
+                            </h3>
+                        </a>
+
+                        <a href="#california-title">
+                            <h3 class="destiny-summary">
+                                California
+                            </h3>
+                        </a>
+
+                        <a href="#nevada-title">
+                            <h3 class="destiny-summary">
+                                Nevada
+                            </h3>
+                        </a>
+                    </div>
+                </td>
+                <!-- FIM PRIMEIRA COLUNA DA PRIMEIRA LINHA DA TABELA -->
+                <td class="colune-table2">
+                    <form>
+                        <h3>Deseja agendar uma viagem? Cadastre-se abaixo!</h3>
+                        <br>
+                        <label>Nome:⠀</label>
+                        <br>
+                        <input type="text" placeholder="Ex.: João da Silva">
+                        <br>
+                        <label>Email:⠀</label>
+                        <br>
+                        <input type="email" placeholder="Ex.: joaosilva@gmail.com" inputmode="email">
+                        <br>
+                        <label>CPF:⠀</label>
+                        <br>
+                        <input type="email" placeholder="Ex.: 123.456.789.10">
+                        <br>
+                        <label>Data de nascimento: </label>
+                        <br>
+                        <input type="date">
+                        <br>
+                        <label>Sexo: </label>
+                        <br>
+                        <input type="radio" name="sexo"> Masculino <input type="radio" name="sexo"> Feminino <input type="radio" name="sexo"> Prefiro não dizer
+                        <br>
+                        <br>
+                        <label>Deseja receber notícias sobre: </label>
+                        <br>
+                        <input type="checkbox" name="noticias"> Promoções <input type="checkbox" name="noticias"> Novos destinos <input type="checkbox" name="noticias"> Atualizações e notícias
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <!--- https://www.visiteosusa.com.br -->
+
+        <table>
+            <tr>
+                <td>
+                    <!-- Coluna 1 -->
+                    <div class="location-title-and-first-paragraph1">
+                        <h1 class="location-title" id="hawaii-title">
+                            Hawaii
+                        </h1>
+                        <p class="location-description">
+                            Da agitação de Oahu ao romance de Maui, com passeios por caminhos pouco conhecidos de Lanai e Molokai, as ilhas havaianas oferecem muito para ver, fazer e sentir, enchendo uma vida inteira de sonhos. Então, onde você começa? As espetaculares praias e
+                            os exuberantes vales do Havaí oferecem diversas experiências, como surfe, caminhadas, paraquedismo, passeios de helicóptero, esportes a remo, observação de baleias e tirolesa. Você também pode nadar com arraias-manta à noite,
+                            flutuar por túneis de antigas plantações de açúcar e caminhar pela paisagem lunar no Garden of the Gods (Jardim dos Deuses). Escolha sua aventura no Havaí e comece a criar memórias.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <figure>
+                        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F201230100452-10-2021-travel-destinations-hawaii.jpg" class="hawaii-image1">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+
+        <p class="location-description">
+            <b class="text-mark">Parques e monumentos imperdíveis do Havaí</b>
+            <br><br><br> Dentre os incríveis pontos naturais e históricos do Havaí, o Haleakalā National Park (Parque Nacional Haleakalā), considerado a "Casa do Sol" em Maui, é um imenso vulcão em escudo que proporciona vistas espetaculares do nascer
+            do sol. No World War II Valor in the Pacific National Monument (Monumento Nacional ao Heroísmo da Segunda Guerra Mundial no Pacífico), um ar melancólico cerca o USS Arizona Memorial (Memorial do USS Arizona), dedicado às vítimas do ataque
+            de Pearl Harbor em 1941. O incrível poder da erosão pode ser observado no Waimea Canyon State Park (Parque Estadual de Waimea Canyon) de Kauai; o "Grand Canyon do Pacífico" foi criado pela queda do vulcão que formou a ilha. O Pu'uhonua O Hōnaunau
+            National Historical Park (Parque Histórico Nacional Pu'uhonua O Hōnaunau), conhecido por seus entalhes em máscaras fantásticas, é um local de refúgio sagrado usado pelos havaianos em épocas antigas.
+            <br><br><br>
+        </p>
+
+        <b class="text-mark">Mais sobre os vulcões do Havaí</b>
+
+        <table>
+            <tr>
+                <!-- Linha 1-->
+                <td>
+                    <!-- Coluna 1 -->
+                    <figure>
+                        <img src="https://www.fourwindsmaui.com/wp-content/uploads/IMG_0852.jpg" class="hawaii-image2">
+                    </figure>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <div class="location-title-and-first-paragraph2">
+                        <p class="location-description">
+                            <br><br><br> O Havaí é lar de cinco vulcões ativos. Quatro estão na Ilha Havaí: Kīlauea, Maunaloa, Hualālai e Maunakea. O quinto, Haleakalā, fica em Maui. O lugar mais popular para ver os vulcões no Havaí é o Hawaii Volcanoes
+                            National Park (Parque Nacional dos Vulcões do Havaí), que abriga dois vulcões ativos: o Kilauea e o Maunaloa. Atualmente, não há fluxo de lava no parque mas, dependendo das condições, você conseguirá ver o vapor que soltam.
+                            Os visitantes devem ficar nas trilhas designadas e não podem se aproximar da lava. Verifique as condições climáticas e do vulcão antes de visitar o Hawaii Volcanoes National Park.
+                            <br><br><br>
+                            <b class="text-mark">Havaí, paraíso ao ar livre</b>
+
+                            <br><br><br> Maravilhe-se com cânions, vales e cachoeiras coloridos enquanto caminha pela Nā Pali Coast (Costa de Nā Pali) de 35,5 km. Águas cristalinas em azul-turquesa convidam para o mergulho com snorkel na Molokini Crater
+                            (Cratera de Molokini) na costa de Maui. Faça uma aula de surfe para aproveitar as ondas em Waikiki Beach (Praia de Waikiki) ou caminhe pela ilha menos visitada de Lanai para conhecer o Kaunolu Village Site (Local da Vila de
+                            Kaunolu), uma vila havaiana pesqueira pré-histórica. Em Kauai, faça rapel em cachoeira, passe por antigas passagens das plantações de açúcar ou passeie de caiaque pelo tranquilo Wailua River (Rio Wailua) entre montanhas antigas
+                            e florestas tropicais. Partindo de Kohala Coast (Costa de Kohala) do Havaí, de dezembro a abril, faça um cruzeiro de observação de baleias ao pôr do sol e ouça o canto das baleias em um hidrofone subaquático.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b class="text-mark">Só no Havaí</b>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            Para um gostinho do Havaí clássico, faça uma aula particular de hula e aprenda a fazer colares havaianos com a Hawaii Hula Company. Na primavera, o Merrie Monarch Festival (Festival Merrie Monarch) reúne os melhores grupos de hula para uma competição
+            visualmente espetacular e outras atividades culturais tradicionais. Você encontrará guitarristas de slack key, conhecidos como ki hoalu, fazendo apresentações em resorts de guigas em Waikiki; há também um Slack Key Festival (Festival de Slack
+            Key) em Kona que ocorre todo mês de setembro. O Bishop Museum (Museu Bishop) em Honolulu conta com a maior coleção de artefatos polinésios do mundo. O Polynesian Cultural Center (Centro Cultural Polinésio) na costa nordeste de Oahu oferece
+            um autêntico luau com jantar e shows aos visitantes. Na ilha de Molokai encontra-se o Kalaupapa National Historical Park (Parque Histórico Nacional Kalaupapa), que preserva as colônias de leprosos, que funcionaram até 1969, próximo às mais
+            altas falésias do mundo.
+        </p>
+        <a href="#init">Voltar ao início</a>
+        <br><br>
+
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+
+        <table>
+            <tr>
+                <td>
+                    <!-- Coluna 1 -->
+                    <div class="location-title-and-first-paragraph1">
+                        <h1 class="location-title" id="florida-title">
+                            Florida
+                        </h1>
+                        <p class="location-description">
+                            Localizada no sudeste dos EUA com litorais no Oceano Atlântico e no Golfo do México, a ensolarada Flórida é lar de muitas surpresas. Visite as praias e os parques temáticos da Flórida, suas atrações mais populares. Depois, explore tesouros naturais, atrações
+                            culturais de primeira linha e joias escondidas.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <figure>
+                        <img src="https://content.r9cdn.net/rimg/dimg/17/74/0ca6e469-city-30651-1632b88f203.jpg?width=1750&height=1000&xhint=2635&yhint=1507&crop=true" class="florida-image1">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            <b class="text-mark">A beleza natural da região central da Flórida</b>
+            <br><br><br> Viva vários dias de diversão nos parques temáticos de Orlando e Kissimmee, como o Walt Disney World Resort e o Universal Studios, repletos de atrações emocionantes e experiências imersivas. Depois, dirija por mais uma hora a leste
+            para visitar a Space Coast, ideal para famílias relaxarem nas praias do oceano Atlântico, conhecer o Kennedy Space Center (Centro Espacial Kennedy) e assistir a lançamentos de foguetes ao vivo. Colha laranjas e faça um tour por um pomar de
+            frutas cítricas em Clermont. Observe a vida selvagem no Merritt Island National Wildlife Refuge (Refúgio Nacional de Vida Selvagem de Merritt Island). Situado na maior ilha barreira da Flórida, o parque é o habitat de diferentes espécies de
+            águias e tartarugas. Sobrevoe Davenport em um balão de ar quente ou salte de paraquedas em Plant City.
+            <br><br><br>
+        </p>
+        <b class="text-mark">Cultura e cerveja artesanal no Golfo do México</b>
+        <table>
+            <tr>
+                <!-- Linha 1-->
+                <td>
+                    <!-- Coluna 1 -->
+                    <figure>
+                        <img src="https://a.cdn-hotels.com/gdcs/production9/d394/d2da586b-0f28-423e-b9e6-2cf51d57a459.jpg" class="florida-image2">
+                    </figure>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <div class="location-title-and-first-paragraph2">
+                        <p class="location-description">
+                            <br><br><br> Curte animais exóticos e montanhas-russas? Então não deixe de ir até o Busch Gardens Tampa Bay. Caminhe pelo Tampa Riverwalk (calçadão), cheio de restaurantes, bares, museus e opções de entretenimento, incluindo
+                            o The Florida Aquarium (Aquário da Flórida), lar de dezenas de milhares de criaturas tropicais. Dirija por 45 minutos a oeste para chegar até a premiada Clearwater Beach, de areia branca e águas calmas. Em St. Petersburg, visite
+                            museus e mais de 35 cervejarias ao longo do Gulf Coast Craft Beer Trail (Circuito da Cerveja Artesanal da Costa do Golfo). Do meio de novembro ao final de março, nade entre os tranquilos peixes-boi no rio Crystal. Confira museus,
+                            galerias de arte e peças de teatro em Sarasota. Ande de barco, faça mergulho com snorkel e nade em Siesta Key.
+                            <br><br><br>
+                            <b class="text-mark">Aventuras sem fim no sul da Flórida</b>
+                            <br><br><br> Socialize em South Beach, Miami, e confira galerias, boutiques, restaurantes, bares e arquitetura Art Déco. A noite ganha vida em bares e casas noturnas com apresentações de DJs e muita música latina. Pela manhã,
+                            faça um passeio de lancha pelos mangues e pântanos da costa do Everglades National Park (Parque Nacional de Everglades) para ver jacarés e peixes-boi. Explore cidades charmosas do sul da Flórida, como a romântica Delray Beach
+                            e seu Pineapple Grove Arts District (Bairro artístico). Explore o Key Largo e o Bahia Honda State Park (Parque Estadual Bahia Honda), em Florida Keys. Esses são destinos perfeitos para relaxar na praia, andar de barco, pescar
+                            e fazer snorkeling. À noite, confira a vida noturna na Duval Street, em Key West.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b class="text-mark">Charme do norte da Flórida e diversão em família</b>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            Leve toda a família a Jacksonville, que conta com mais de uma dúzia de museus de história, arte contemporânea e ciência. No Jacksonville Zoo and Gardens (Zoológico e Jardins de Jacksonville) você vê mais de 2 mil animais e mil espécies de plantas. Faça
+            uma viagem de carro até Ocala e encare as aventuras da Canyons Zip Line e da Canopy Tours em uma caverna de pedra calcária. Explore também o mundo subterrâneo no Florida Caverns State Park (Parque Estadual das Cavernas da Flórida), próximo
+            a Marianna. Relaxe nas praias de Emerald Coast, conhecidas pelas areias brancas e águas verde-claras. Caminhe pelas ruas de paralelepípedos em St. Augustine, a cidade mais antiga dos EUA. Amelia Island e Fernandina Beach contam com resorts
+            luxuosos, campos de golfe profissionais e lojas charmosas.
+        </p>
+        <a href="#init">Voltar ao início</a>
+        <br><br>
+
+
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+        <table>
+            <tr>
+                <td>
+                    <!-- Coluna 1 -->
+                    <div class="location-title-and-first-paragraph1">
+                        <h1 class="location-title" id="new-york-title">
+                            New York
+                        </h1>
+                        <p class="location-description">
+                            Só em Nova York é possível fazer um passeio de balão sobrevoando o "Grand Canyon da Costa Leste", no Letchworth State Park (Parque estadual de Letchworth), participar de demonstrações de moldagem de vidro soprado no Corning Museum of Glass (Museu do Vidro
+                            de Corning) e provar rótulos vintage em vinícolas premiadas na região dos lagos Finger. Embarque no Maid of the Mist nas Cataratas do Niágara para ver de perto uma das maiores maravilhas naturais do mundo. Explore um museu
+                            nas Catskills, local que serviu de palco para o festival Woodstock na década de 60. Atravesse o mais longo sistema de canais do país, visite uma cervejaria artesanal e conheça as maravilhas subterrâneas das Howe Caverns (Cavernas
+                            Howe). Conheça um pouco da vida na colônia americana e da história da Guerra de Independência dos Estados Unidos nas proximidades de Albany, capital do estado, e assista a uma corrida emocionante com os melhores cavalos puro-sangue
+                            do mundo no centro esportivo mais antigo dos EUA, o Saratoga Race Course. Faça um passeio de barco para conhecer dois castelos no arquipélago Mil Ilhas, caminhe em meio à copa das árvores no Wild Center das Adirondacks ou assista
+                            a apresentações artísticas em uma vila vitoriana às margens do lago, na região de Chautauqua-Allegheny.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <figure>
+                        <img src="https://content.r9cdn.net/rimg/dimg/a9/c2/7cbde206-lm-5515-16df871e611.jpg?crop=true&width=1366&height=768&xhint=2996&yhint=2440" class="new-york-image1">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            <b class="text-mark">Uma cidade diversa</b>
+            <br><br><br> Na cidade de Nova York você pode assistir a espetáculos da Broadway, observar sua famosa silhueta do alto de um arranha-céu ou visitar o National September 11 Memorial (Memorial Nacional ao 11 de Setembro), uma homenagem comovente
+            à resiliência do país. Para fazer uma road trip incrível, atravesse o belo Hudson Valley (Vale do Hudson), fazendo uma parada para provar as delícias servidas no famoso Culinary Institute of America (Instituto Culinário da América). Visite
+            West Point, a academia militar mais antiga do país, e propriedades históricas, como a Vanderbilt Mansion (Mansão Vanderbilt) e a casa do ex-presidente Franklin Delano Roosevelt. Nova York tem opções que encantam todos os gostos.
+            <br><br><br>
+        </p>
+        <b class="text-mark">Niagara Falls State Park</b>
+        <table>
+            <tr>
+                <!-- Linha 1-->
+                <td>
+                    <!-- Coluna 1 -->
+                    <figure>
+                        <img src="https://cdn.getyourguide.com/img/location/60096cdee428e.jpeg/99.jpg" class="new-york-image2">
+                    </figure>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <div class="location-title-and-first-paragraph3">
+                        <p class="location-description">
+                            <br><br><br> Faça um passeio no barco Maid of the Mist para ver as famosas cataratas de perto ou sinta o poder de suas águas no Hurricane Deck da Cave of the Winds. Visite o Discovery Center and Adventure Theater para conhecer
+                            a história dessa imponente maravilha natural.
+                            <br><br><br>
+                            <b class="text-mark">Walkway Over the Hudson</b>
+                            <br><br><br> A antiga ponte férrea de 1868, a passarela para pedestres que atravessa o rio Hudson, indo de Poughkeepsie a Highland, é uma das mais longas do mundo. Aproveite para fazer a trilha local a pé ou de bicicleta, prestando
+                            atenção a indicações de curiosidades geográficas e culturais.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b class="text-mark">Times Square</b>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            Um dos destinos mais famosos do mundo e visitados em Nova York é a Times Square. Então, o que é a Times Square em Nova York? É o local onde possui a maior concentração da indústria do entretenimento no mundo, além de grandes lojas de famosas marcas internacionais.
+            Atualmente, uma imensa bola de cristal desce do edifício a meia-noite para saudar o ano novo e milhões de pessoas se reúnem pela região. Ao chegarmos na Times Square e nos depararmos com o brilho de tantas luzes coloridas, é comum ter um sentimento
+            de conquista e “estou no meio do mundo” como nenhum outro lugar. Quase que não anoitece nos arredores da Times Square, por conta da intensidade dos painéis luminosos que cercam a área.
+        </p>
+        <a href="#init">Voltar ao início</a>
+        <br><br>
+
+
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+
+        <table>
+            <tr>
+                <td>
+                    <!-- Coluna 1 -->
+                    <div class="location-title-and-first-paragraph1">
+                        <h1 class="location-title" id="california-title">
+                            California
+                        </h1>
+                        <p class="location-description">
+                            Do celebrado litoral até ao amplo interior e picos de granito das Sierra Mountains (cordilheira da Sierra), a Califórnia oferece uma vida inteira de férias em um único lugar: o Estado Dourado. Em um lugar com esse tamanho e diversidade, realmente todo
+                            mundo pode conseguir alguma coisa – e sempre haverá muito a fazer para quando você voltar. Praias ensolaradas e surfistas nas ondas, cidades deslumbrantes repletas de cultura e diversão, parques de cair o queixo e vistas dignas
+                            de qualquer lista de desejos: a Califórnia tem qualidade incomparável. Entregue-se aos famosos parques temáticos ou a algumas das melhores experiências de comida e vinho do mundo. Seja vista da janela de um hotel cinco estrelas
+                            ou pelos respiros de uma barraca, a Califórnia vale mesmo ouro.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <figure>
+                        <img src="https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2019/01/11/hollywood-capa-1123277_widexl.png" class="california-image1">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+
+        <p class="location-description">
+            <b class="text-mark">Excelente ambiente ao ar livre</b>
+            <br><br><br> Os quase 300 parques nacionais e estaduais são uma prova do terreno espetacular onde se encontra a Califórnia. Com um litoral de cair o queixo, desertos sensacionais e montanhas escarpadas, a Califórnia tem espaços abertos para
+            tudo: de viagens de carro com paisagens deslumbrantes até aventuras repletas de adrenalina. Nos parques como o Yosemite National Park e o Redwood State and National Park, Patrimônios da Humanidade segundo a UNESCO, há atividades o ano todo.
+            Na primavera, desça os rios do Gold Country de rafting e vá fazer uma caminhada para avistar flores selvagens no Anza-Borrego Desert State Park, ou dê suas tacadas nos famosos campos de golfe. No verão, vá surfar no Orange County ou em Santa
+            Cruz, ou então alugue uma casa-barco em um lago cintilante. Chegando o outono, fotografe a lindíssima folhagem da High Sierra ou vá pisar uvas em uma região vinicultora. No inverno, desça de esqui famosas pistas ou faça um cruzeiro para avistar
+            baleias na North Coast.
+            <br><br><br>
+        </p>
+
+        <b class="text-mark">Cultura</b>
+
+        <table>
+            <tr>
+                <!-- Linha 1-->
+                <td>
+                    <!-- Coluna 1 -->
+                    <figure>
+                        <img src="https://www.dicasdeviagem.com/wp-content/uploads/2020/04/daniel-guerra-san-diego-bay-unsplash-1500x1124.jpg" class="california-image2">
+                    </figure>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <div class="location-title-and-first-paragraph2">
+                        <p class="location-description">
+                            <br><br><br> Faça da riquíssima e variada cultura californiana parte das suas férias. As artes e a cultura californianas vão além das paredes dos museus de primeira linha. Comunidades como Carmel-by-the-Sea, Idyllwild e Laguna
+                            Beach são prova viva da rica herança artística. As missões espanholas dão uma luz sobre as raízes da Califórnia. Celebre a cena musical do estado em festivais como o Coachella Valley Music and Arts Festival, próximo a Palm
+                            Springs, o Monterey Jazz Festival na costa central e o Outside Lands, em San Francisco. Conheça culturas diversas na Chinatown de San Francisco ou o Old Town e suas influências mexicanas, em San Diego. Mergulhe na famosa cultura
+                            de surfe em Huntington Beach, também conhecida como Cidade do Surfe. Maravilhe-se com a magia das estrelas de cinema da Califórnia, sabendo que as maiores celebridades moram e trabalham bem pertinho de Hollywood.
+                            <br><br><br>
+                            <b class="text-mark">Aventuras urbanas</b>
+
+                            <br><br><br>E quando se trata de diversão na cidade grande, os pontos urbanos da Califórnia brilham. A Califórnia é uma terra de fantásticos refúgios urbanos, com centros vibrantes como a agitada Union Square de San Francisco,
+                            o dinâmico centro e a Sunset Strip de Los Angeles e o histórico Gaslamp Quarter de San Diego. Venha conhecer os sabores criados por chefs celebrados em restaurantes inovadores ou provar a comida de um delicioso food truck,
+                            cada vez mais famosos (e deliciosos). Quando escurecer, tome um coquetel preparado por um mixologista, vá a um concerto ou peça ou se jogue na pista de dança a noite inteira. Reserve um tempo para apreciar atrações urbanas
+                            famosas, como o Disneyland Resort em Anaheim, o SeaWorld San Diego e o Universal Studios Hollywood, além de pérolas escondidas de jardins urbanos ocultos para refúgios amplos e verdes, como o Balboa Park e seu internacionalmente
+                            famoso zoológico, em San Diego.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b class="text-mark">Prazer</b>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            A Califórnia tem uma série inigualável de experiências inesperadas para você dar um presente a si mesmo. Escape para a felicidade em um luxuoso spa ou um sereno refúgio do bem-estar. Prove vinhos de primeira em elegantes vinícolas. Entre em estilos da
+            haute couture nas boutiques de Beverly Hills ou no South Coast Plaza, em Costa Mesa. Faça um passeio VIP pelos cenários de filmes e pelas maiores atrações. Saboreie refeições criadas por chefs que ostentam estrelas Michelin, como Thomas Keller,
+            do The French Laundry, em Yountville, e Wolfgang Puck, do Spago, em Los Angeles. O que não falta são prazeres inestimáveis. Veja um dos melhores shows de luzes do mundo – o pôr do sol californiano – pelos penhascos de Mendocino. Veja a neblina
+            mística tomar a Golden Gate Bridge de San Francisco e contemple arco-íris nas cachoeiras do Yosemite National Park.
+        </p>
+        <a href="#init">Voltar ao início</a>
+        <br><br>
+
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+        <table>
+            <tr>
+                <td>
+                    <!-- Coluna 1 -->
+                    <div class="location-title-and-first-paragraph1">
+                        <h1 class="location-title" id="nevada-title">
+                            Nevada
+                        </h1>
+                        <p class="location-description">
+                            Existe um espírito de descobertas em Nevada. Ao longo do noroeste cheio de aventuras do estado até o deserto metropolitano de Las Vegas, há experiências sem limites esperando por você, basta descobrir, explorar e conquistar. Seja a travessia de vastos
+                            terrenos de espaços abertos ou juntar-se a algo mais comunal, como festivais de música e arte, a paisagem e a cultura de Nevada são perfeitos para caubóis, visionários, sonhadores e para quem põe a mão na massa.
+                        </p>
+                    </div>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <figure>
+                        <img src="https://www.collinsdictionary.com/images/full/nevada_504833803_1000.jpg" class="nevada-image1">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+
+        <p class="location-description">
+            <b class="text-mark">Viagem pelas estradas de Nevada</b>
+            <br><br><br> Viagens na estrada são o coração de qualquer experiência em Nevada. Dirija ao longo da U.S. Highway 50 (Rodovia 50 dos EUA) (conhecida como a Via mais solitária na América do Norte) e passe por inspiradoras cadeias de montanhas
+            enquanto absorve vistas espetaculares, incluindo o Great Basin National Park (Parque Nacional de Great Basin). Não esqueça de parar nas cidades mineradoras históricas e nas ruínas de Forte Churchill. Encontre atividades na água no lago Lahontan,
+            lago Tahoe e no lago Pyramid. Em seu caminho até Las Vegas, pegue a U.S. Highway 95 South (Rodovia 95 Sul dos EUA) e passe a noite em Tonopah, conhecida por ter um dos céus noturnos mais escuros dos EUA. Para tirar fotos incríveis pela estrada,
+            visite a International Car Forest (Floresta Internacional de Carros) em Goldfield, depois viaje até Rhyolite, que fica logo na saída da cidade de Beatty. Para uma jornada extraterrestre, pegue um desvio na State Route 375 (Rota 375 Estadual)
+            e visite o Little A’Le’Inn, onde todas as criaturas são bem-vindas.
+            <br><br><br>
+        </p>
+
+        <b class="text-mark">Cowboys e aventuras pioneiras de Nevada</b>
+
+        <table>
+            <tr>
+                <!-- Linha 1-->
+                <td>
+                    <!-- Coluna 1 -->
+                    <figure>
+                        <img src="https://www.amandaviaja.com.br/wp-content/uploads/2018/08/GettyImages-596570141-1.jpg" class="nevada-image2">
+                    </figure>
+                </td>
+                <td>
+                    <!-- Coluna 2 -->
+                    <div class="location-title-and-first-paragraph2">
+                        <p class="location-description">
+                            <br><br><br> A hospitalidade do Velho Oeste reina em Elko, lar do National Cowboy Poetry Gathering (Encontro Nacional de Poesia de Caubóis) e da J.M. Capriola Co., fabricante original dos Garcia Bits and Spurs (Freios e Esporas
+                            Garcia) e outros produtos finos do Velho Oeste. Visite o California Trail Interpretive Center (Centro Interpretativo da Trilha da Califórnia) para conhecer as dificuldades enfrentadas pelos pioneiros. Faça um passeio gratuito
+                            por uma mina de ouro da área, ou uma viagem cênica até Lamoille Canyon (Cânion Lamoille), onde você poderá pescar, caminhar e praticar ciclismo. Ou, seja ousado e faça heli-esqui (Esqui saltando de um helicóptero) nas Ruby
+                            Mountains (Montanhas Ruby). Para ter mais nostalgia do Velho Oeste, não esqueça de visitar a cidade de Virgínia, conhecida como o lar do Comstock Lode (Veio de minério Comstock) e de um dos maiores campos de mineração no oeste
+                            de Denver. Hoje, suas calçadas seguras de madeira está cheia de visitantes que vão para conhecer a bonança da vida real.
+                            <br><br><br>
+                            <b class="text-mark">Beleza natural teatral de Nevada</b>
+
+                            <br><br><br>Nevada é o estado mais montanhoso nos Estados Unidos contíguos, portanto, antes de você seguir até as luzes brilhantes de Las Vegas, explore o ar livre. Visite a Red Rock Canyon National Conservation Area (Área
+                            de Conservação Nacional do Cânion Red Rock) para praticar caminhada, ciclismo e escalada (e depois disso, faça um tratamento de spa em um fabuloso spa em Las Vegas). Existem formações incríveis de arenito no Valley of Fire
+                            State Park (Parque Estadual do Vale do Fogo), tirolesas na cidade de Boulder e campos de golfe que funcionam o ano todo em todo o estado. Dirija até Laughlin, no Colorado River Valley (Vale do rio Colorado) para ter uma variedade
+                            de atividades ao ar livre.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b class="text-mark">Cidades espetaculares</b>
+                </td>
+            </tr>
+        </table>
+        <p class="location-description">
+            Após visitar o lago Tahoe, o maior lago alpino da nação, siga até Carson City, uma cidade fronteiriça circundada por Sierra Nevada. Quem gosta do interior e quem pratica ciclismos nas montanhas pode aproveitar as trilhas desafiadoras criadas pelos rios
+            e que datam de 1850. Visite a Stewart Indian School (Escola Indígena Stewart) para aprender sobre os norte-americanos nativos e as tradições indígenas. Depois, siga até a "Maior cidadezinha do mundo", Reno, para fazer rafting diurno pelo rio
+            Truckee. Explore a gastronomia que Midtown tem a oferecer e siga até o centro para conhecer uma vida noturna animada. Conheça a audaciosa cidade de Las Vegas com uma caminhada pela The Strip, vendo cassinos históricos, hotéis enormes, as sinalizações
+            brilhantes e fontes dançantes antes de mergulhar na paisagem da cidade.
+        </p>
+        <a href="#init">Voltar ao início</a>
+        <br><br>
+
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------------------------------------------- -->
+
+    </div>
+</body>
+
+</html>
