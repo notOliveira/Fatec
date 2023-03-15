@@ -318,8 +318,8 @@ def main():
             client1.run()
         
         print('\n\nMuito obrigado por vir ao Fatec Way!\n')
-        voltar = int(input('\nDeseja pedir novamente? Caso sim, entre com o número 1 abaixo!\n'))
-        if voltar == 1:
+        voltar = input('\nDeseja pedir novamente? Caso sim, entre com o número 1 abaixo!\n')
+        if voltar == '1':
             print('\n')
             main()
         else:
@@ -333,4 +333,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()    
+    main() 
