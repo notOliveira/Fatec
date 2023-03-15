@@ -1,10 +1,10 @@
-# Abstract-Method-Builder
+# Abstract Method & Builder
 
 
 <p>Esse projeto tem como intuito simular um subyway, utilizando <strong>Desing Partterns, Abstract Method e Builder<strong></p>
 <p>Nome dos integrantes do grupo</p>
 <ul>
-  <li>Fl=avio Kawan</li>
+  <li>Flávio Kawan</li>
   <li>Gustavo S. Oliveira</li>
   <li>José Anderson</li>
 </ul>
