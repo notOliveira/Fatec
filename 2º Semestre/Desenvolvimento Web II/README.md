@@ -1,3 +1,3 @@
-# Exercícios JS
+# Exercícios de Javascript
 
-Para atividade Fatecana!
+Para as aulas de Dev Web III!
